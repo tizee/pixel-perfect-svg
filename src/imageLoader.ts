@@ -40,7 +40,7 @@ function convertTo3dPixelArray(px: NdArray<Data<number>>, debug: (str: string) =
   return output;
 }
 
-function createPixel(i: number, channels: number, width: number, height: number, output: Pixel[][][], data: Data) {
+function createPixel(i: number, channels: number, width: number, height: number, output: Pixel[][][], data: any) {
   const frame = Math.floor((i / channels) / (width * height));
   const x = (i / channels) % width;
   const y = Math.floor((i / channels) / width) - (frame * height);

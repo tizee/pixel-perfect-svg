@@ -13,7 +13,13 @@
   },
   "homepage": "https://github.com/kagof/pixel-perfect-svg",
   "readme": "README.md",
-  "keywords": ["svg", "png", "cli", "pixel", "art"],
+  "keywords": [
+    "svg",
+    "png",
+    "cli",
+    "pixel",
+    "art"
+  ],
   "main": "dist/index.js",
   "files": [
     "dist/**/*"
@@ -49,6 +55,7 @@
   "devDependencies": {
     "@types/get-pixels": "^3.3.1",
     "@types/jest": "^26.0.24",
+    "@types/ndarray": "1.0.13",
     "@types/node": "^16.4.10",
     "@types/ora": "^3.2.0",
     "@types/rewire": "^2.5.28",
